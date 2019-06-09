@@ -1,6 +1,5 @@
 
-![NODE.JS GPS Tracker Server](https://user-images.githubusercontent.com/1103494/31578284-95673986-b0f4-11e7-81dd-2fefd3fb0478.jpg)
-![License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)
+FORKED FROM "freshworkstudio/gps-tracking-nodejs"
 
 GPS TRACKING SERVER | Node.js 
 ==============
