@@ -1,4 +1,4 @@
-const gps = require("./index");
+const gps = require("../index");
 
 const options = {
 	'debug': true,
