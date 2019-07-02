@@ -36,13 +36,13 @@ const server = gps.server(options, function (device, connection) {
 
 	device.on("ping", function (data) {
 		//After the ping is received
-		// console.log("PING", data);
+		console.log("PING", data);
 		// console.log("I'm here now: " + gps_data.latitude + ", " + gps_data.longitude);
 		return data;
 	});
 
 	device.on("alarm", function (alarm_code, alarm_data, msg_data) {
-		console.log('alarm', alarm_code, alarm_data, msg_data)
+		// console.log('alarm', alarm_code, alarm_data, msg_data)
 		// console.log("Help! Something happend: " + alarm_code + " (" + alarm_data.msg + ")");
 		//call_me();
 	});
