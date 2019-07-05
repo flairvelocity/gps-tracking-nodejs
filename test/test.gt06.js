@@ -23,7 +23,7 @@ const server = gps.server(options, function (device, connection) {
 	device.on("login_request", function (device_id, msg_parts) {
 		//Do some stuff before authenticate the device...
 		// This way you can prevent from anyone to send their position without your consent
-		this.login_authorized(true); //Accept the login request.
+		this.login_authorized(true, msg_parts); //Accept the login request.
 	});
 
 	device.on("login", function () {
